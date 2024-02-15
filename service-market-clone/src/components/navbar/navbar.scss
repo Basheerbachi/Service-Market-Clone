@@ -1,0 +1,52 @@
+.navbar{
+    width: 100%;
+    font-size: 14px;
+
+    .container{
+        display: flex;
+        padding: 0px 50px;
+        height: 70px;
+        align-items: center;
+        justify-content: space-between;
+
+        .left{
+            display: flex;
+            align-items: center;
+            img{
+                height: 40px;
+                margin-right: 40px;
+            }
+            span{
+                color: gray;
+                cursor: pointer;
+
+                select{
+                    option{
+                        border: none;
+                        color: gray;
+                    }
+                }
+                
+            }
+        }
+
+        .right{
+            display: flex;
+            align-items: center;
+
+            span{
+                margin-right: 20px;
+                font-weight: 600;
+            }
+            .phone{
+                border: 2px solid rgb(19, 153, 70);
+                padding: 5px;
+                border-radius: 5px;
+                color: rgb(19, 153, 70);
+            }
+        }
+
+
+        
+    }
+}
